@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.banner {
+    background-color: #282A35;
+    height: 500px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo_text h1 {
+    text-align: center;
+    color: white;
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.logo_text h2 {
+    text-align: center;
+    color: #FFC0C7;
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.logo_text_1 {
+    font-size: 50px;
+    font-weight: 700;
+    display: block;
+    
+}
+.logo_text_2 {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    padding-top: 30px;
+}
+
+
+
+  /* поиск */
+  *{
+    box-sizing: border-box;
+
+  }
+  
+  .search-box{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin-top: 30px;
+  }
+  .input-search{
+    height: 50px;
+    width: 50px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #04AA6D;
+    padding-right: 40px;
+    color:#fff;
+  }
+  .input-search::placeholder{
+    color:rgba(255,255,255,.5);
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+  .btn-search{
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color:#ffffff ;
+    background-color:transparent;
+    pointer-events: painted;  
+  }
+  .btn-search:focus ~ .input-search{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  .input-search:focus{
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+  
+/* текст */
+
+/* .html_back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+  .html_block_1{
+    display: block;
+    flex-direction: column;
+  }
+  .html_1_but {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .html_block_2_ban {
+    display: flex;
+    flex-direction: column;
+  }
+  .p_html {
+    font-family:'Source Sans Pro', sans-serif;
+    width: 600px;
+    height: 36px;
+    margin: 10px;
+    font-size: 24px;
+  }
+
+  .html_block_2{
+    display: block;
+    background-color: #E7E9EB;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    width: 600px;
+    height: 421px;
+    padding: 16px;
+    margin-left: 225px;
+  }
+  .html_block_in {
+    background-color: white;
+    width: 565px;
+    height: 284px;
+    border-radius: 5px;
+  }
+
+  .code_examp {
+    font-size: 17px;
+    display: flex;
+    float: left;
+  }
+  .html {
+    background-color: #D9EEE1;
+    height: 500px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .html_text_1 {
+    text-align: center;
+    color: #000000;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    display: block;
+    
+  }
+
+  .html_text_2 {
+    text-align: center;
+    color: #000000;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+  /* Стиль панели навигации */
+.navbar {
+  background-color: rgb(252, 251, 251);
+  overflow: auto;
+  display: flex;
+}
+
+.home_icon {
+  background-image: url("../img/home.png");
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  background-position: center center;
+  border: 0;
+  outline: 0;
+  background-color: #ffffff;
+}
+
+button b:hover {
+  background-color: #04AA6D;
+} 
+
+
+/* Ссылки на навигационную панель */
+.navbar a {
+ 
+  text-align: center;
+  font-family:'Source Sans Pro', sans-serif;
+  padding: 25px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Ссылки на навигационную панель при наведении курсора мыши */
+.navbar a:hover {
+  background-color: #04AA6D;
+  color: rgb(255, 255, 255);
+}
+
+/* Текущая/активная ссылка на навигационную панель 
+.active {
+  background-color: #4CAF50;
+}
+*/
+/* Добавить отзывчивость - автоматически отображает навигационную панель вертикально, а не горизонтально на экранах менее 500 пикселей */
+@media screen and (max-width: 500px) {
+  .navbar a {
+   
+    display: block;
+  }
+}
+  
+
+
+
+
+
+
+/* кнопка */
+.nav_but{
+display: flex;
+}
+
+.floating-button {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  background: rgb(184, 110, 31); 
+  color: rgb(0, 0, 0);
+  
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+.floating-button:hover {
+  background: #2EE59D;
+  box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+  color: white;
+  transform: translateY(-7px);
+}
+
+
+
+
+/* HTML.Html ------ file */
+
+
+
+/* липкая панель */
+.panel {
+  position: fixed;
+  top: 0; 
+  width: 100%;
+}
+
+
+
